@@ -1,0 +1,15 @@
+body{
+    background-image: url("messi.jpg");
+}
+div{
+    text-align: center;
+    font-size: 50px;
+    color: burlywood;;
+}
+.size{
+    font-size: 100px;
+    color: yellow;
+}
+#p{
+    font-family: 'Alex Brush', cursive;
+}

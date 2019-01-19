@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+     <meta name="viewport" content="width=device-width, initial-scale=1">
+     <link href="https://fonts.googleapis.com/css?family=Satisfy" rel="stylesheet">
+     <link href="C:\Users\abhay.gupta\Documents\WebCss\registerfile.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
+</head>
+<body>
+
+<form action ="./final.html" method="get">
+  <div class="container">
+    <div clss="fix"> <h1 ><i class="fas fa-address-card"></i> &nbsp; &nbsp;&nbsp; Registration Form</h1></div>
+  
+    <hr>
+      
+     <label for="name"><b>Name</b></label>
+    <input type="text" placeholder="Enter Full Name" name="name" required >
+     
+       <label for="gender"><b>Gender</b></label>
+    <input type="radio" name="gender" value="Male"> Male
+      <input type="radio" name="gender" value="Female" > Female
+      <br><br>
+       <label for="email"><b>Email</b></label>
+    <input type="text" placeholder="Enter Email" name="email" required>
+      
+    <label for="mobile"><b>Mobile Number</b></label>
+    <input type="text" placeholder="Enter Mobile Number" name="email" oninput="this.value = this.value.replace(/[^0-9.]/g, ''); this.value = this.value.replace(/(\..*)\./g, '$1');"  maxlength="10" required >
+
+    <label for="psw"><b>Password</b></label>
+    <input type="password" placeholder="Enter Password" name="psw" required >
+
+    <label for="psw-repeat"><b>Repeat Password</b></label>
+    <input type="password" placeholder="Repeat Password" name="psw-repeat" required >
+    <hr>
+      
+   <button type="submit" class="registerbtn">Register</button>
+<!--    <a href="final.html">rsubmit</a>-->
+  </div>
+  
+  <div class="container signin">
+    <p>Already have an account? <a href="#">Sign in</a>.</p>
+  </div>
+    </form>
+</body>
+</html>

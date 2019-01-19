@@ -1,0 +1,7 @@
+C:\csharp\linqTOsqlClassesProject\bin\Debug\linqTOsqlClassesProject.exe.config
+C:\csharp\linqTOsqlClassesProject\bin\Debug\linqTOsqlClassesProject.exe
+C:\csharp\linqTOsqlClassesProject\bin\Debug\linqTOsqlClassesProject.pdb
+C:\csharp\linqTOsqlClassesProject\obj\Debug\linqTOsqlClassesProject.csprojAssemblyReference.cache
+C:\csharp\linqTOsqlClassesProject\obj\Debug\linqTOsqlClassesProject.csproj.CoreCompileInputs.cache
+C:\csharp\linqTOsqlClassesProject\obj\Debug\linqTOsqlClassesProject.exe
+C:\csharp\linqTOsqlClassesProject\obj\Debug\linqTOsqlClassesProject.pdb
